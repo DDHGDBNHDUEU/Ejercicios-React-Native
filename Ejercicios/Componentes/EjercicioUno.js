@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 function EjercicioUno() {
   return (
     <View style={styles.container}>
-      <Text>Holap</Text>
+      <Text style={styles.texto}>Hola React Native</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,6 +17,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  texto: {
+    fontSize: 26, 
+    color: 'red', 
+  },
 });
 
-export default EjercicioUno
+export default EjercicioUno;

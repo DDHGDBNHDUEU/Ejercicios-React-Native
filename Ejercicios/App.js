@@ -1,10 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import EjercicioUno from './Componentes/EjercicioUno'
+import EjercicioDos from './Componentes/EjercicioDos';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Holap</Text>
+      <EjercicioUno/>
+      <EjercicioDos/>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffffff',
     alignItems: 'center',
     justifyContent: 'center',
   },
