@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 function EjercicioDos() {
   return (
     <View style={styles.container}>
-      <Text style={styles.texto}>Mayra Belen Rodriguez</Text>
+      <Text style={styles.texto}>♡ Mayra Belen Rodriguez ♡</Text>
       <Text style={styles.texto}>6to</Text>
       <StatusBar style="auto" />
     </View>

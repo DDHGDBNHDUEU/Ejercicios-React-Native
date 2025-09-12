@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 function EjercicioUno() {
   return (
     <View style={styles.container}>
-      <Text style={styles.texto}>Hola React Native</Text>
+      <Text style={styles.texto}>♡ Hola React Native ♡</Text>
       <StatusBar style="auto" />
     </View>
   );
