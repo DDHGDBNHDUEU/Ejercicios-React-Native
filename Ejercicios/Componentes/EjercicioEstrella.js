@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
       marginHorizontal: 16,
     },
     item: {
-      backgroundColor: '#f9c2ff',
+      backgroundColor: 'green',
       padding: 20,
       marginVertical: 8,
     },
