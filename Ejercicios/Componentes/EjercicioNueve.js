@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  StyleSheet,
-  View,
-  Text,
-  Image,
-  ScrollView,
-  Pressable,
-  StatusBar,
-} from "react-native";
+import {StyleSheet, View, Text, Image, ScrollView, Pressable, StatusBar,} from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function EjercicioNueve() {

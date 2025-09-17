@@ -10,6 +10,7 @@ import EjercicioCinco from './Componentes/EjercicioCinco';
 import EjercicioSeis from './Componentes/EjercicioSeis';
 import EjercicioSiete from './Componentes/EjercicioSiete';
 import EjercicioNueve from './Componentes/EjercicioNueve';
+import EjercicioEstrella from './Componentes/EjercicioEstrella';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <EjercicioSeis />
         <EjercicioSiete />
         <EjercicioNueve />
+        <EjercicioEstrella/>
         <StatusBar style="auto" />
       </ScrollView>
     </SafeAreaProvider>
